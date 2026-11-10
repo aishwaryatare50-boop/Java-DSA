@@ -1,0 +1,29 @@
+Solution.java
+
+# Compiled Java class files
+*.class
+
+# VS Code
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# Windows OS files
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Log & temp files
+*.log
+*.tmp
