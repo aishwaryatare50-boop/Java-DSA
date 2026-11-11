@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 public class Subsequences {
 
-    // Time Complexity = O(n * 2^n)
+    // Time Complexity = O(2^n)
     // Space Complexity = O(n) // recursion stack space
     public static void subsequences(String str, int index, StringBuilder newString) {
         if(index == str.length()) {
@@ -23,7 +23,7 @@ public class Subsequences {
     }
 
 
-    // Time Complexity = O(n * 2^n)
+    // Time Complexity = O(2^n)
     // Space Complexity = O(n * 2^n)// HashSet + O(n) // recursion stack space
     public static void uniqueSubsequences(String str, int index, StringBuilder newString, HashSet<String> set) {
         if(index == str.length()) {
