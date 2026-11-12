@@ -6,6 +6,8 @@ package Striver_A_to_Z_DSA.Recursion.Hard;
 
 public class CountPaths {
 
+    // Time Complexity = O(2 ^ (n + m))
+    // Space Complexity = O(n + m) // recursion stack space
     public static int countPaths(int i, int j, int n, int m) {
 
         if(i == n || j == m) {

@@ -2,7 +2,9 @@ package Striver_A_to_Z_DSA.Recursion.Hard;
 
 public class PrintPermutations {
 
-    // Time Complexity = O(n!) where n is the length of the string
+    // Time Complexity = O(n!) where n is the length of the string (only for generating permutations)
+    // (O(n * n!)) for creating and printing permutation
+    // Space Complexity = O(n) // recursion stack space
     public static void printPermutations(String str, StringBuilder permutation) {
         if(str.length() == 0) {
             System.out.println(permutation);
