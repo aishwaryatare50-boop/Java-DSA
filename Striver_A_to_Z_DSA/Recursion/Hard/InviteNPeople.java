@@ -7,8 +7,12 @@ public class InviteNPeople {
     // Time Complexity = O(2 ^ n)
     // Space Complexity = O(n) // recursion stack space
     public static int noOfWaysToInviteNPeople(int n) {
-        if(n == 1 ||  n == 2) {
-            return n;
+        if(n <= 1) {
+            return 1;
+        }
+
+        if(n == 2) {
+            return 2;
         }
 
         // solo invitation
